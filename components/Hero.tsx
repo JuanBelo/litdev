@@ -37,7 +37,7 @@ export function Hero() {
           </div>
           <div className="flex justify-center items-center">
             <h6 className="mb-8 md:text-lg text-brand-litdev-600">
-              Conecte-se com devs do mundo todo e seja iluminado.
+              Conecte-se com devs de todo o mundo.
             </h6>
           </div>
           <div className="flex gap-3">

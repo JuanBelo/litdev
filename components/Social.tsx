@@ -15,7 +15,7 @@ export function Social() {
           {socialItems.map((item, index) => (
             <div
               key={index}
-              className="bg-surface-875 p-1.5 h-12 w-12 rounded-md cursor-pointer hover:bg-brand-litdev-500 transition-all transition-duration: 100ms"
+              className="bg-gray-800 p-1.5 h-12 w-12 rounded-md cursor-pointer hover:bg-brand-litdev-600 transition-all transition-duration: 100ms"
             >
               <a href={item.url} target="blank">
                 {item?.icon}
@@ -35,29 +35,29 @@ const socialItems = [
     icon: (
       <LinkedinLogo
         size="full"
-        className="text-brand-litdev-500 hover:text-white transition-duration: 100ms"
+        className="text-brand-litdev-600 hover:text-black transition-duration: 100ms"
       />
     ),
-    url: "https://www.linkedin.com/school/gonew-co/",
+    url: "",
   },
   {
     name: "Instagram",
     icon: (
       <InstagramLogo
         size="full"
-        className="text-brand-litdev-500 hover:text-white transition-duration: 100ms"
+        className="text-brand-litdev-600 hover:text-black transition-duration: 100ms"
       />
     ),
-    url: "https://www.instagram.com/gonew.co/",
+    url: "",
   },
   {
     name: "Email",
     icon: (
       <EnvelopeSimple
         size="full"
-        className="text-brand-litdev-500 hover:text-white transition-duration: 100ms"
+        className="text-brand-litdev-600 hover:text-black transition-duration: 100ms"
       />
     ),
-    url: "mailto:info@gonew.co",
+    url: "",
   },
 ];

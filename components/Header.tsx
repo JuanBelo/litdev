@@ -29,7 +29,7 @@ export function Header() {
 
           <div className="items-center gap-4 hidden lg:flex">
             <a
-              href="https://community.gonew.co/auth/login"
+              /* href="https://community.gonew.co/auth/login" */
               rel="noopener noreferrer"
               target="_blank"
               className="flex items-center justify-center uppercase  font-bold gap-2 border-0 py-2 px-4 rounded-md text-sm"
@@ -42,7 +42,7 @@ export function Header() {
               Entrar
             </a>
             <a
-              href="https://community.gonew.co/auth/register"
+              /*  href="https://community.gonew.co/auth/register" */
               target="_blank"
               rel="noopener noreferrer"
               className="uppercase py-2 px-4 rounded-[5px] text-sm font-bold border-2 border-brand-litdev-500 text-surface-100 hover:brightness-90 transition"
