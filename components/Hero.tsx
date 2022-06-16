@@ -1,4 +1,5 @@
 import Typewriter from "typewriter-effect";
+import { ArrowRight } from "phosphor-react";
 
 export function Hero() {
   return (
@@ -41,15 +42,19 @@ export function Hero() {
           </div>
           <div className="flex gap-3">
             <div>
-              <div className="flex gap-2 bg-brand-litdev-625 pl-4 pr-3 py-1 rounded-sm items-center">
-                <h4 className="font-bold fo">ILUMINAR</h4>
-                <div className="bg-brand-litdev-650 p-1 rounded-sm w-6 h-6"></div>
+              <div className="cursor-pointer flex gap-2 bg-brand-litdev-625 pl-6 pr-4 py-3 rounded-[5px] items-center hover:opacity-90">
+                <h4 className="font-bold font-sans mr-2">ILUMINAR</h4>
+                <div className="bg-brand-litdev-650 p-1 rounded-sm w-8 h-8 flex justify-center items-center">
+                  <ArrowRight className="text-white" weight="bold" />
+                </div>
               </div>
             </div>
             <div>
-              <div className="flex gap-2 bg-brand-litdev-500 pl-4 pr-3 py-1 rounded-sm items-center">
-                <h4 className="font-bold fo">SER ILUMINADO</h4>
-                <div className="bg-brand-litdev-550 p-1 rounded-sm w-6 h-6"></div>
+              <div className="cursor-pointer flex gap-2 bg-brand-litdev-500 pl-6 pr-4 py-3 rounded-[5px] items-center hover:opacity-90">
+                <h4 className="font-bold font-sans mr-2">SER ILUMINADO</h4>
+                <div className="bg-brand-litdev-550 p-1 rounded-sm w-8 h-8 flex justify-center items-center">
+                  <ArrowRight className="text-white" weight="bold" />
+                </div>
               </div>
             </div>
           </div>
