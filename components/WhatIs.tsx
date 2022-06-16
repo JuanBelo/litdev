@@ -6,11 +6,11 @@ export function WhatIs() {
     <>
       <Section>
         <Container>
-          <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-            <h1 className="sm:text-5xl text-2xl font-bold title-font mb-2 text-white">
+          <div className="flex w-full mb-20 flex-col items-center text-center">
+            <h1 className="sm:text-5xl text-2xl font-bold title-font mb-6 text-white">
               Como funciona?
             </h1>
-            <p className="w-full leading-relaxed opacity-70 text-lg">
+            <p className="w-full leading-relaxed opacity-70 text-md">
               Feito de devs para devs, o LiDev possibilita a conexão instantânea
               entre desenvolvedores que precisam de uma luz para algum problema
               específico, e devs que querem ampliar ainda mais seus

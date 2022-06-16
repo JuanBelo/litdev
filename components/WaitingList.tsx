@@ -12,18 +12,12 @@ export function WaitingList() {
                 <h1 className="sm:text-5xl text-2xl font-bold title-font mb-2 text-white">
                   Lista de Espera
                 </h1>
-                <p className="w-full leading-relaxed opacity-70 text-lg">
+                <p className="w-full leading-relaxed opacity-70 text-lg mb-5">
                   Seja notificado no lançamento!
                 </p>
               </div>
               <div className="flex w-full justify-center items-end">
                 <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
-                  <label
-                    /* for="hero-field" */
-                    className="leading-7 text-sm text-gray-400"
-                  >
-                    E-mail
-                  </label>
                   <input
                     type="text"
                     id="hero-field"
