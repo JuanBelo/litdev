@@ -7,11 +7,12 @@ module.exports = {
     extend: {
       colors: {
         "brand-litdev": {
-          500: "#8257E5",
-          550: "#633BBC",
-          600: "#51FA7B",
-          625: "#248E3E",
-          650: "#136127 ",
+          500: "#FC9A1D",
+          550: "#FC9A1D",
+          600: "#FC9A1D",
+          625: "#1B323E",
+          650: "#1B323E ",
+          700: "#FFD89D",
         },
         surface: {
           0: "#FFFFFF",
@@ -34,6 +35,7 @@ module.exports = {
       },
       fontFamily: {
         opensans: ["Source Code Pro", `monospace`],
+        inter: ["Inter", `sans-serif`],
       },
     },
   },

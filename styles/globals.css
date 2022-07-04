@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-surface-900 text-white font-mono;
+  @apply bg-surface-900 text-white font-opensans;
 }
 
 img {
@@ -26,4 +26,21 @@ img {
   p {
     @apply text-sm;
   }
+}
+
+.HeroTitle {
+  background: linear-gradient(
+    89.89deg,
+    rgba(211, 215, 219, 0) -12.12%,
+    rgba(248, 249, 249, 0.671264) 8.43%,
+    rgba(253, 253, 253, 0.763218) 34.94%,
+    rgba(255, 255, 255, 0.8) 48.2%,
+    rgba(225, 234, 247, 0.8) 58.8%,
+    rgba(244, 244, 244, 0.8) 73.51%,
+    rgba(198, 207, 219, 0.8) 95.26%,
+    rgba(20, 91, 197, 0.8) 103.88%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
