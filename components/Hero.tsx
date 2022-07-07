@@ -11,7 +11,7 @@ export function Hero() {
           "linear-gradient(50deg, #161c2460, #161c2460 100%), url(/assets/images/HeroBackGround.png) no-repeat 49% center",
         backgroundSize: "cover",
       }}
-      className="lg:h-[calc(90vh] h-[calc(95vh)]"
+      className="lg:h-[calc(120vh] h-[calc(95vh)]"
     >
       <Logo />
       <div className="absolute h-full w-full flex m-auto z-50 -mt-24">

@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 body {
-  @apply bg-surface-900 text-white;
+  @apply text-white;
+}
+
+body {
+  /*  background: red; */
+  background: linear-gradient(50deg, #161c2460, #161c2460 100%),
+    url(/assets/images/HeroBackGround.png) no-repeat 49% center;
+  height: 100%;
+  position: relative;
+  z-index: 100;
 }
 
 img {

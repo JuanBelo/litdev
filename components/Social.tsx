@@ -9,8 +9,8 @@ import {
 
 export function Social() {
   return (
-    <Container className="py-0 flex justify-center mt-[5rem]">
-      <div className="w-full flex gap-2 justify-between z-50 absolute">
+    <Container className="py-0 flex justify-center">
+      <div className="w-full flex gap-2 justify-between relative z-50">
         <div>
           <p>
             @2022 LitDev. <br />

@@ -14,9 +14,11 @@ import {
 const Home: NextPage = () => {
   return (
     <NonSSRWrapper>
-      <Hero />
-      <First />
-      <Social />
+      <div className="backgroundFull">
+        <Hero />
+        <First />
+        {/* <Social /> */}
+      </div>
     </NonSSRWrapper>
   );
 };
