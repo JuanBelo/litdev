@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-surface-900 text-white font-opensans;
+  @apply bg-surface-900 text-white;
 }
 
 img {
