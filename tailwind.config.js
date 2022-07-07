@@ -34,8 +34,10 @@ module.exports = {
         },
       },
       fontFamily: {
-        opensans: ["Source Code Pro", `monospace`],
+        opensans: ["Open Sans", `sans-serif`],
+        "Source+Sans+Pro": ["Source Code Pro", `sans-serif`],
         inter: ["Inter", `sans-serif`],
+        roboto: ["Roboto", `sans-serif`],
       },
     },
   },
