@@ -44,7 +44,7 @@ export function Hero() {
                 </div>
               </div>
               <div className="flex justify-center items-center">
-                <h6 className=" mb-8 text-xl md:text-2xl text-brand-litdev-700 tracking-wide text-center font-opensans">
+                <h6 className=" mb-8 text-xl md:text-2xl text-brand-litdev-700 tracking-wide text-center font-inter">
                   Solicite uma mentoria ou <br className="flex md:hidden" />
                   seja um mentor!
                 </h6>

@@ -1,3 +1,4 @@
+import NonSSRWrapper from "components/utils/NonSSRWrapper";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
@@ -12,13 +13,11 @@ import {
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <NonSSRWrapper>
       <Hero />
       <First />
-      {/*  <WhatIs />
-      <WaitingList /> */}
-      {/* <Social /> */}
-    </div>
+      <Social />
+    </NonSSRWrapper>
   );
 };
 

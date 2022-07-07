@@ -9,55 +9,41 @@ import {
 
 export function Social() {
   return (
-    <div className="border-[0px] border-surface-875 py-8">
-      <Container className="py-0 flex justify-center">
-        <div className="flex gap-2 justify-center">
+    <Container className="py-0 flex justify-center mt-[5rem]">
+      <div className="w-full flex gap-2 justify-between z-50 absolute">
+        <div>
+          <p>
+            @2022 LitDev. <br />
+            Terms of Service · Privacy policy
+          </p>
+        </div>
+        <div className="flex gap-2">
           {socialItems.map((item, index) => (
             <div
               key={index}
-              className="bg-gray-800 p-1.5 h-12 w-12 rounded-md cursor-pointer hover:bg-brand-litdev-600 transition-all transition-duration: 100ms"
+              className=" p-1.5 h-10 w-10 rounded-md cursor-pointer text-[#7A8BA0] "
             >
               <a href={item.url} target="blank">
-                {item?.icon}
+                <img src={item.icon} alt="" />
               </a>
             </div>
           ))}
         </div>
-        {/* <ScroolTopButton /> */}
-      </Container>
-    </div>
+      </div>
+      {/* <ScroolTopButton /> */}
+    </Container>
   );
 }
 
 const socialItems = [
   {
     name: "Linkedin",
-    icon: (
-      <LinkedinLogo
-        size="full"
-        className="text-brand-litdev-600 hover:text-black transition-duration: 100ms"
-      />
-    ),
+    icon: "/assets/icons/Linkedin.png",
     url: "",
   },
   {
     name: "Instagram",
-    icon: (
-      <InstagramLogo
-        size="full"
-        className="text-brand-litdev-600 hover:text-black transition-duration: 100ms"
-      />
-    ),
-    url: "",
-  },
-  {
-    name: "Email",
-    icon: (
-      <EnvelopeSimple
-        size="full"
-        className="text-brand-litdev-600 hover:text-black transition-duration: 100ms"
-      />
-    ),
+    icon: "/assets/icons/instagram.png",
     url: "",
   },
 ];

@@ -2650,6 +2650,13 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+next-useragent@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/next-useragent/-/next-useragent-2.8.0.tgz#af1589717875c5c6268c0c89f59c6a690e40f757"
+  integrity sha512-SDmIfqdBg0Uxk9L/mHX+P3XPdjS7hPGkhdQJjgUa+f0pFORO33FS632A0C2BsIOHr0Eu/bZF3D/kAUrzl/3aYA==
+  dependencies:
+    ua-parser-js "^0.7.28"
+
 next@12.1.6:
   version "12.1.6"
   resolved "https://registry.yarnpkg.com/next/-/next-12.1.6.tgz#eb205e64af1998651f96f9df44556d47d8bbc533"
@@ -3893,6 +3900,11 @@ typewriter-effect@^2.18.2:
   dependencies:
     prop-types "^15.6.2"
     raf "^3.4.0"
+
+ua-parser-js@^0.7.28:
+  version "0.7.31"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.31.tgz#649a656b191dffab4f21d5e053e27ca17cbff5c6"
+  integrity sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"

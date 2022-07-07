@@ -1,17 +1,13 @@
 import { X } from "phosphor-react";
 import React from "react";
 import { Container } from "./utils";
+import { BlurBox } from "./utils/BlurBox";
 
 export function First() {
   return (
-    <Container>
-      <div className="flex justify-center relative">
-        <div
-          style={{
-            boxShadow: "0px 4px 250px rgba(0, 0, 0, 0.5)",
-          }}
-          className="w-full h-fit bg-[#606976] rounded-[15px] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20 absolute z-50 -mt-[15rem] px-8 pb-16 pt-10"
-        >
+    <Container className="">
+      <div className="flex justify-center items-center z-50 -mt-[15rem] mx-auto">
+        <BlurBox className="px-8 pb-16 pt-10">
           <div className="flex flex-col gap-8 items-center">
             <p className="font-inter font-bold text-2xl tracking-wide">
               Procurar Mentor
@@ -21,13 +17,13 @@ export function First() {
                 Buscar tecnologia{" "}
               </p>
             </div>
-            <div className="flex gap-3">
+            <div className="flex flex-wrap justify-center items-center gap-3">
               {tecgnologies.map((technology, index) => (
                 <div
                   className="bg-[#5B6575] rounded-full w-fit px-2 py-1 font-roboto tracking-wide flex gap-2 justify-center items-center"
                   key={index}
                 >
-                  <div className="w-fit h-4 self-center rounded-sm overflow-hidden">
+                  <div className="w-4 h-4 self-center rounded-sm overflow-hidden">
                     <img src={technology.logo} className=" w-fit h-4" />
                   </div>
 
@@ -55,7 +51,7 @@ export function First() {
               </p>
             </div>
           </div>
-        </div>
+        </BlurBox>
       </div>
     </Container>
   );
@@ -78,3 +74,15 @@ const tecgnologies = [
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
 ];
+
+{
+  /* <div
+            style={{
+              boxShadow: "0px 4px 250px rgba(0, 0, 0, 0.5)",
+            }}
+            className="w-full h-fit bg-[#606976] rounded-[15px] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20 "
+          > */
+}
+{
+  /*  </div> */
+}
