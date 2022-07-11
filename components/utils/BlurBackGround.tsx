@@ -40,7 +40,7 @@ export function BlurBackGround({ children, className }: BlurBoxProps) {
         <div
           style={{
             background:
-              "linear-gradient(180deg, rgba(27, 34, 44, 0) 0%, rgba(27, 34, 44, 0.557292) 0.38%, rgba(27, 34, 44, 0.9000) 50.41%)",
+              "linear-gradient(180deg, rgba(27, 34, 44, 0.5) 0%, rgba(27, 34, 44, 0.557292) 0.38%, rgba(27, 34, 44, 0.9000) 50.41%)",
           }}
           className={`bg-opacity-90 customblur abosulte z-50 w-full ${className}`}
         >

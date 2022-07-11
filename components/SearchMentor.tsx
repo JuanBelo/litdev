@@ -10,7 +10,7 @@ export function SearchMentor() {
         <p className="font-inter font-bold text-2xl tracking-wide">
           Procurar Mentor
         </p>
-        <div className="bg-white bg-opacity-10 py-3 rounded-[5px] text-center px-16 lg:px-24">
+        <div className="bg-white bg-opacity-10 py-3 rounded-full text-center px-8 lg:px-10">
           <p className="font-inter text-md lg:text-md">Buscar tecnologia </p>
         </div>
         <div className="flex flex-wrap justify-center items-center gap-3">
