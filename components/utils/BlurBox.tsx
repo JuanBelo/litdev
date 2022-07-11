@@ -20,13 +20,13 @@ export function BlurBox({ children, className }: BlurBoxProps) {
             className={`h-56 w-[50rem] absolute z-10 bg-[#327691] opacity-100 right-10 top-10 rounded-full`}
           />
           <div
-            className={`h-56 w-562 absolute z-10 bg-brand-litdev-500 bg-opacity-[38%] left-0 opacity-25 bottom-0 rounded-full`}
+            className={`h-56 w-562 absolute z-10 bg-[#50fa7b] bg-opacity-[38%] left-0 opacity-25 bottom-0 rounded-full`}
           />
           <div
-            className={`h-56 w-[50rem] absolute z-10 bg-brand-litdev-500 left-20 bg-opacity-[38%] bottom-20 rounded-full rounded-r-lg`}
+            className={`h-56 w-[50rem] absolute z-10 bg-[#50fa7b] left-20 bg-opacity-[38%] bottom-20 rounded-full rounded-r-lg`}
           />
           <div
-            className={`h-56 w-[50rem] absolute z-10 bg-brand-litdev-500 left-20 bg-opacity-[38%] bottom-0 rounded-full rounded-r-lg`}
+            className={`h-56 w-[50rem] absolute z-10 bg-[#633bbc] left-20 bg-opacity-[38%] bottom-0 rounded-full rounded-r-lg`}
           />
         </>
       )}

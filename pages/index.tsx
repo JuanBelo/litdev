@@ -1,3 +1,4 @@
+import { Background } from "components/Background";
 import NonSSRWrapper from "components/utils/NonSSRWrapper";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -14,11 +15,16 @@ import {
 const Home: NextPage = () => {
   return (
     <NonSSRWrapper>
-      <div className="backgroundFull">
-        <Hero />
-        <First />
-        {/* <Social /> */}
-      </div>
+      <main>
+        <Background>
+          <div className="flex flex-col gap-[7rem]">
+            <Hero />
+            <First />
+
+            <Social />
+          </div>
+        </Background>
+      </main>
     </NonSSRWrapper>
   );
 };
