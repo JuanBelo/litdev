@@ -4,15 +4,7 @@
 
 body {
   @apply text-white;
-}
-
-body {
-  /*  background: red; */
-  background: linear-gradient(50deg, #161c2460, #161c2460 100%),
-    url(/assets/images/HeroBackGround.png) no-repeat 49% center;
-  height: 100%;
-  position: relative;
-  z-index: 100;
+  background: rgba(27, 34, 44, 0.557292);
 }
 
 img {
