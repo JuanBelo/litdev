@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
 import { ArrowRight, ClockCounterClockwise } from "phosphor-react";
-import { Container } from "./utils";
+import { Container, EarlyAccessButton } from "./utils";
 
 export function Hero() {
   return (
@@ -13,25 +13,13 @@ export function Hero() {
           Save The Devs
         </p>
         <div className="flex justify-center items-center">
-          <h6 className="text-xl md:text-2xl text-white text-center font-inter opacity-60">
+          <h6 className="text-xl md:text-xl text-white text-center font-inter opacity-60 font-normal">
             Solicite uma mentoria ou <br className="flex md:hidden" />
             seja um mentor!
           </h6>
         </div>
         <div className="mt-2 flex gap-2 lg:gap-3">
-          <div>
-            <div
-              style={{ boxShadow: "0px 4px 140px rgba(0, 0, 0, 0.68)" }}
-              className="cursor-pointer flex gap-2 bg-brand-litdev-625 pl-6 lg:pl-6 pr-5 lg:pr-4 py-3 rounded-[10px] items-center hover:opacity-90"
-            >
-              <h4 className="text-sm md:text-lg font-bold font-sans tracking-wider mr-2 ">
-                EARLY ACCESS
-              </h4>
-              <div className="bg-white bg-opacity-5 p-1 rounded-[5px] w-8 h-8 flex justify-center items-center">
-                <ClockCounterClockwise className="text-white" weight="bold" />
-              </div>
-            </div>
-          </div>
+          <EarlyAccessButton />
         </div>
       </div>
     </>

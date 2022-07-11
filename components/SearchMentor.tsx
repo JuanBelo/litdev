@@ -3,7 +3,7 @@ import React from "react";
 import { Container } from "./utils";
 import { BlurBox } from "./utils/BlurBox";
 
-export function First() {
+export function SearchMentor() {
   return (
     <BlurBox className="px-8 pb-16 pt-10">
       <div className="flex flex-col gap-8 items-center">

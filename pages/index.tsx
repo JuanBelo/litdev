@@ -1,4 +1,5 @@
 import { Background } from "components/Background";
+import { GetEmail } from "components/GetEmail";
 import NonSSRWrapper from "components/utils/NonSSRWrapper";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -9,7 +10,8 @@ import {
   Header,
   WhatIs,
   WaitingList,
-  First,
+  SearchMentor,
+  Mentor,
 } from "../components";
 
 const Home: NextPage = () => {
@@ -19,8 +21,9 @@ const Home: NextPage = () => {
         <Background>
           <div className="flex flex-col gap-[7rem]">
             <Hero />
-            <First />
-
+            <SearchMentor />
+            <Mentor />
+            <GetEmail />
             <Social />
           </div>
         </Background>

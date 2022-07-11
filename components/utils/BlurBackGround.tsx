@@ -32,7 +32,7 @@ export function BlurBackGround({ children, className }: BlurBoxProps) {
               className={`h-56 w-[50rem] absolute z-10 bg-[#50fa7b] left-20 bg-opacity-[70%] bottom-20 rounded-full rounded-r-lg`}
             />
             <div
-              className={`h-56 w-[50rem] absolute z-10 bg-[#633bbc] left-20 bg-opacity-[70%] bottom-10 rounded-full rounded-r-lg`}
+              className={`h-56 w-[50rem] absolute z-10 bg-[#633bbc] bg-opacity-[90%] bottom-0 left-0 rounded-full rounded-r-lg`}
             />
           </>
         )}
@@ -40,7 +40,7 @@ export function BlurBackGround({ children, className }: BlurBoxProps) {
         <div
           style={{
             background:
-              "linear-gradient(180deg, rgba(27, 34, 44, 0) 0%, rgba(27, 34, 44, 0.557292) 0.38%, rgba(27, 34, 44, 5.5) 20.41%)",
+              "linear-gradient(180deg, rgba(27, 34, 44, 0) 0%, rgba(27, 34, 44, 0.557292) 0.38%, rgba(27, 34, 44, 0.9000) 50.41%)",
           }}
           className={`bg-opacity-90 customblur abosulte z-50 w-full ${className}`}
         >
