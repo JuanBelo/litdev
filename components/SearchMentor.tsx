@@ -34,13 +34,13 @@ export function SearchMentor() {
         </div>
         <div className="bg-white bg-opacity-[1%] border border-[#444a57] rounded-md w-full py-4 px-5 font-roboto tracking-wide flex flex-col gap-2 justify-start max-w-4xl">
           <p className="text-md">Problema ao integrar MongoDB</p>
-          {/* <p className="text-md">
+          <p className="text-md">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting.
-          </p> */}
+          </p>
         </div>
       </div>
     </BlurBox>
